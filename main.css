@@ -1,0 +1,52 @@
+.cal-box {
+  width: 500px;
+  height: 300px;
+}
+
+.cal-display-box {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.cal-display {
+  width: 400px;
+  height: 50px;
+  background-color: white;
+  margin: auto;
+  text-align: right;
+  font-size: 30px;
+}
+
+.cal-button-box {
+  width: 100%;
+  height: 230px;
+  background-color: grey;
+}
+
+.cal-button {
+  width: 400px;
+  height: 210px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+}
+
+#buttonAC {
+  width: 170px;
+  height: 30px;
+}
+
+#buttonE {
+  width: 170px;
+  height: 30px;
+}
